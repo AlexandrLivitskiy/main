@@ -55,7 +55,15 @@ class Item{
                 </tr>
             </tbody>
         </table>
-    </div>`
+    </div>`,
+    styles: [`
+        h1, h2{color:navy;}
+        p{font-size:13px;}
+        :host {
+            font-family: Verdana;
+            color: #555;
+        }
+    `]
 })
 export class AppComponent { 
     name = 'Lev';
